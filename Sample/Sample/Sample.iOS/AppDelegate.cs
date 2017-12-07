@@ -23,7 +23,9 @@ namespace Sample.iOS
 		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 		{
 			global::Xamarin.Forms.Forms.Init ();
-			LoadApplication (new Sample.App ());
+            //FreshIOC.Container.Register<Sample.Services.IPlatformService, Services.IOSPlatformService>();
+
+            LoadApplication (new Sample.App ());
 
 			return base.FinishedLaunching (app, options);
 		}

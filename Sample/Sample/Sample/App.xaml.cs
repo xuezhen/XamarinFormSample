@@ -11,8 +11,7 @@ namespace Sample
 	{
 		public App ()
 		{
-			InitializeComponent();
-
+			
 			MainPage = new Sample.MainPage();
 		}
 
