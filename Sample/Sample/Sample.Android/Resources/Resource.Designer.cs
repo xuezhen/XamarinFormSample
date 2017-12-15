@@ -27,6 +27,9 @@ namespace Sample.Droid
 		public static void UpdateIdValues()
 		{
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Sample.Droid.Resource.Attribute.actionBarSize;
+			global::ZXing.Mobile.Resource.Id.contentFrame = global::Sample.Droid.Resource.Id.contentFrame;
+			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::Sample.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::Sample.Droid.Resource.Layout.zxingscannerfragmentlayout;
 		}
 		
 		public partial class Animation
@@ -2895,6 +2898,9 @@ namespace Sample.Droid
 			// aapt resource value: 0x7f080073
 			public const int container = 2131230835;
 			
+			// aapt resource value: 0x7f0800b2
+			public const int contentFrame = 2131230898;
+			
 			// aapt resource value: 0x7f08004c
 			public const int contentPanel = 2131230796;
 			
@@ -3009,8 +3015,8 @@ namespace Sample.Droid
 			// aapt resource value: 0x7f080046
 			public const int list_item = 2131230790;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int masked = 2131230899;
+			// aapt resource value: 0x7f0800b4
+			public const int masked = 2131230900;
 			
 			// aapt resource value: 0x7f08009f
 			public const int media_actions = 2131230879;
@@ -3309,8 +3315,8 @@ namespace Sample.Droid
 			// aapt resource value: 0x7f08000c
 			public const int view_offset_helper = 2131230732;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int visible = 2131230898;
+			// aapt resource value: 0x7f0800b3
+			public const int visible = 2131230899;
 			
 			// aapt resource value: 0x7f080091
 			public const int volume_item_container = 2131230865;
@@ -3605,6 +3611,12 @@ namespace Sample.Droid
 			
 			// aapt resource value: 0x7f030043
 			public const int Toolbar = 2130903107;
+			
+			// aapt resource value: 0x7f030044
+			public const int zxingscanneractivitylayout = 2130903108;
+			
+			// aapt resource value: 0x7f030045
+			public const int zxingscannerfragmentlayout = 2130903109;
 			
 			static Layout()
 			{

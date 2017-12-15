@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using ZXing.Mobile;
 
 namespace Sample.Droid
 {
@@ -15,9 +16,9 @@ namespace Sample.Droid
 		protected override void OnCreate (Bundle bundle)
 		{
 			TabLayoutResource = Resource.Layout.Tabbar;
-			ToolbarResource = Resource.Layout.Toolbar; 
-
-			base.OnCreate (bundle);
+			ToolbarResource = Resource.Layout.Toolbar;
+            MobileBarcodeScanner.Initialize(Application);
+            base.OnCreate (bundle);
 
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 			LoadApplication (new Sample.App ());
